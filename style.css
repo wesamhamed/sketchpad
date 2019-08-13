@@ -1,0 +1,19 @@
+
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(16,80px);t */
+    grid-template-rows: repeat(16,21px);
+    width: 1300px;
+    height:600px;
+    margin:10px 10px;
+    border: 10px solid #000;
+    box-sizing: border-box;
+}
+.container .item{
+    width: 70px;
+    height: 27px;
+    background-color: rgb(69,234,173);
+}
+.container .hover{
+    /* background-color: aqua; */
+}
